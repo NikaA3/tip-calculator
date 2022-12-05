@@ -1,0 +1,73 @@
+.totalTip {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tipAmount {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.person {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7f9d9f;
+  letter-spacing: 2px;
+}
+
+.numbers {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: right;
+  letter-spacing: -0.666667px;
+  color: #26c2ae;
+}
+
+@media (min-width: 768px) {
+  .totalTip {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tipAmount {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #fff;
+  }
+
+  .person {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    color: #7f9d9f;
+    letter-spacing: 2px;
+  }
+
+  .numbers {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: right;
+    letter-spacing: -0.666667px;
+    color: #26c2ae;
+  }
+}

@@ -1,0 +1,48 @@
+.rightSide {
+  position: absolute;
+  width: 327px;
+  height: 257px;
+  left: 24px;
+  top: 500px;
+  border-radius: 15px;
+  background-color: #00474b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 24px;
+}
+
+.totalTip {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .rightSide {
+    height: 407px;
+    width: 313px;
+    border-radius: 15px;
+    position: absolute;
+    left: 360px;
+    top: -110px;
+    background: #00474b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1440px) {
+  .rightSide {
+    height: 400px;
+    width: 413px;
+    border-radius: 15px;
+    position: absolute;
+    left: 480px;
+    top: -100px;
+    background: #00474b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+} ;

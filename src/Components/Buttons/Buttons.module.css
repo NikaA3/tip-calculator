@@ -1,0 +1,29 @@
+.buttonMain {
+  width: 146.63px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #00474b;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #26c2ae;
+  width: 146.63px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 4px;
+  color: #00474b;
+  cursor: pointer;
+}

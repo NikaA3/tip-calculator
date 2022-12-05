@@ -1,0 +1,119 @@
+.people {
+  margin: 5px 32px;
+}
+
+.title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #5e7a7d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputStyle {
+  width: 311px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #f3f9fa;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  color: #00474b;
+  padding: 6px 16.72px;
+  border: none;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.inputStyle::placeholder {
+  color: #00474b;
+  text-align: right;
+}
+
+.error {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: right;
+  color: #e17457;
+}
+
+.icon {
+  position: absolute;
+  left: 12%;
+  top: 92%;
+}
+
+@media (min-width: 768px) {
+  .people {
+    width: 100%;
+    margin: 5px 32px;
+  }
+
+  .title {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+    /* identical to box height */
+    color: #5e7a7d;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputStyle {
+    width: 290px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #f3f9fa;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #00474b;
+    padding: 6px 16.72px;
+    border: none;
+    margin-top: 10px;
+    text-align: right;
+  }
+
+  .inputStyle::placeholder {
+    color: #00474b;
+    text-align: right;
+  }
+
+  .error {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #e17457;
+    margin-right: 70px;
+  }
+
+  .icon {
+    position: absolute;
+    left: 12%;
+    top: 110%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .error {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #e17457;
+    margin-right: 90px;
+  }
+}

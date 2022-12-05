@@ -1,0 +1,102 @@
+.reset {
+  width: 281px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #26c2ae;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #00474b;
+}
+
+.disabled {
+  width: 281px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  font-family: Space Mono;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reset:hover {
+  background-color: #9fe8df;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .reset {
+    width: 265px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #26c2ae;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #00474b;
+  }
+
+  .reset:hover {
+    background-color: #9fe8df;
+    cursor: pointer;
+  }
+
+  .disabled {
+    width: 265px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1440px) {
+  .reset {
+    width: 365px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #26c2ae;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #00474b;
+  }
+
+  .reset:hover {
+    background-color: #9fe8df;
+    cursor: pointer;
+  }
+
+  .disabled {
+    width: 365px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,42 @@
+.billWrapper {
+  margin: 32px;
+  position: relative;
+}
+
+.bill {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5e7a7d;
+}
+
+.billInput {
+  width: 311px;
+  height: 48px;
+  background: #f3f9fa;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #00474b;
+  border: none;
+  padding: 6px 17.48px;
+  margin-top: 10px;
+}
+
+.billInput::placeholder {
+  color: #00474b;
+  text-align: right;
+}
+
+.logo {
+  width: 9.84px;
+  height: 15.46px;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
